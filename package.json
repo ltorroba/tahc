@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/zesme/tahc/issues"
   },
-  "homepage": "https://github.com/zesme/tahc#readme"
+  "homepage": "https://github.com/zesme/tahc#readme",
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  }
 }
