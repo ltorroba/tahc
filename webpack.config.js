@@ -15,12 +15,13 @@ module.exports = {
   devtool: "source-map",
 
   resolve: {
-    extensions: ["", ".webpack.js", ".web.js", ".ts", ".tsx", ".js"]
+    extensions: ["", ".webpack.js", ".web.js", ".ts", ".tsx", ".js", ".css"]
   },
 
   module: {
     loaders: [
-      { test: /\.tsx?$/, loaders: ["react-hot-loader/webpack", "ts-loader"] }
+      { test: /\.tsx?$/, loaders: ["react-hot-loader/webpack", "ts-loader"] },
+      { test: /\.css$/, loader: "style-loader!css-loader" }
     ],
 
     preLoaders: [
