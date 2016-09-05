@@ -2,6 +2,8 @@ import * as React from "react";
 
 export class Home extends React.Component<{}, {}> {
   render() {
-    return <h1>Hello, world!</h1>
+    return (
+      <p>Hello, world!</p>
+    );
   }
 }

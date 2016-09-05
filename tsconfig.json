@@ -9,7 +9,6 @@
   },
   "files": [
     "./typings/index.d.ts",
-    "./src/components/Home.tsx",
     "./src/index.tsx"
   ]
 }

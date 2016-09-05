@@ -1,9 +1,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { Home } from "./components/Home";
+import { Router } from "./router";
 
 ReactDOM.render(
-  <Home />,
+  <Router />,
   document.getElementById("root")
 );
