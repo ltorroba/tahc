@@ -2,8 +2,18 @@
   color: #a3a3a4;
   text-align: center;
 
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .figure, .label {
+    margin: 10px;
+  }
+
   .figure {
-    font-size: 40pt;
+    font-size: 144pt;
   }
 
   .label {
