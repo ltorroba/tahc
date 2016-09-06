@@ -1,8 +1,12 @@
 .primary-aside {
   float: left;
   background-color: #E8E8E9;
-  color: #FFFFFF;
+  color: #7A7A7B;
 
   flex: 0 0 200px;
   order: -1;
+
+  h2 {
+    margin: 15px 15px;
+  }
 }

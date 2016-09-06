@@ -1,6 +1,7 @@
 import * as React from "react";
 
 import { Header } from "../views/header-view";
+import { AsideContainer } from "../containers/aside-container";
 
 import "../../stylesheets/main";
 
@@ -14,7 +15,7 @@ export class MainLayout extends React.Component<any, {}> {
         <Header />
 
         <div className="middle-row">
-          <aside className="primary-aside"></aside>
+          <AsideContainer />
           <main className="primary-container">
             {this.props.children}
           </main>
