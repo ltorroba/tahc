@@ -1,0 +1,22 @@
+.message-group {
+  margin-bottom: 10px;
+
+  p {
+    margin: 0;
+  }
+
+  .user {
+    font-size: 16pt;
+    color: #3A7CF3;
+  }
+
+  .messages {
+    .message {
+      font-size: 12pt;
+    }
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
