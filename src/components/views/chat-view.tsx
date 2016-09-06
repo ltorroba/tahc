@@ -21,6 +21,10 @@ export class Chat extends React.Component<ChatProps, {}> {
           <MessageGroupContainer messages={ ["hey", "lol", "whatsup?"] } user="zesme" />
           <MessageGroupContainer messages={ ["hey", "lol", "whatsup?"] } user="MhX" />
         </div>
+
+        <div className="chat-footer">
+          <b>hi</b>
+        </div>
       </div>
     );
   }
