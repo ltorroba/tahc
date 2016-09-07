@@ -1,6 +1,7 @@
 import * as React from "react";
 
 import { MessageGroupContainer } from "../containers/message-group-container";
+import { ChatFooter } from "../views/chat-footer";
 
 import "../../stylesheets/chat";
 
@@ -22,9 +23,7 @@ export class Chat extends React.Component<ChatProps, {}> {
           <MessageGroupContainer messages={ ["hey", "lol", "whatsup?"] } user="MhX" />
         </div>
 
-        <div className="chat-footer">
-          <b>hi</b>
-        </div>
+        <ChatFooter />
       </div>
     );
   }

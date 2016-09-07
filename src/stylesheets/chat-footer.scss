@@ -1,0 +1,44 @@
+@import "partials/placeholder";
+@import "partials/mixins";
+
+.chat-footer {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 30px 30px 30px;
+
+  input, button {
+    padding: 10px;
+    background-color: #EBEBEB;
+    border-style: none;
+    color: #7C7C7C;
+    font-family: inherit;
+    font-size: 11pt;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  input {
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+
+    @include placeholder {
+      font-style: italic;
+    }
+  }
+
+  button {
+    border-radius: 0 5px 5px 0;
+
+    @include vendor-prefix('user-select', 'none');
+
+    &:hover {
+      background-color: #DCDCDC;
+    }
+
+    &:active {
+      background-color: #CBCBCB;
+    }
+  }
+}
