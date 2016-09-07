@@ -21,6 +21,8 @@
 
   .chat-content {
     margin: 30px 30px 10px 30px;
-    flex: 1;
+    flex: 1 1 auto;
+    height: 0px;
+    overflow-y: scroll;
   }
 }
