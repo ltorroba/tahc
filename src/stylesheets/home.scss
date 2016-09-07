@@ -1,4 +1,4 @@
-@import "partials/mixins";
+@import "partials/no-select";
 
 .primary-container .home {
   color: #a3a3a4;
@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
 
-  @include vendor-prefix('user-select', 'none');
+  @include no-select;
 
   .figure, .label {
     margin: 10px;
