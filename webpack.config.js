@@ -38,7 +38,8 @@ module.exports = {
     "react": "React",
     "react-dom": "ReactDOM",
     "react-router": "ReactRouter",
-    "redux": "Redux"
+    "redux": "Redux",
+    "redux-actions": "ReduxActions"
   },
 
   plugins: [new HtmlWebpackPlugin({
