@@ -6,6 +6,7 @@
     "react-router": "registry:dt/react-router#2.0.0+20160828232736",
     "react-router/history": "registry:dt/react-router/history#2.0.0+20160830150755",
     "redux": "registry:dt/redux#3.5.2+20160703092728",
-    "redux-actions": "registry:dt/redux-actions#0.8.0+20160521154116"
+    "redux-actions": "registry:dt/redux-actions#0.8.0+20160521154116",
+    "socket.io-client": "registry:dt/socket.io-client#1.4.4+20161116080703"
   }
 }
