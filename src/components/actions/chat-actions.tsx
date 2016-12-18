@@ -8,12 +8,22 @@ export const loginSuccess = createAction(
   (name: string) => ({ name: name })
 );
 
-export const joinChatSuccess = createAction(
-  Actions.JOIN_CHAT_SUCCESS,
+export const userJoinRoom = createAction(
+  Actions.USER_JOIN_ROOM,
   (name: string) => ({ name, messages: [] })
 );
 
-export const receiveMessageSuccess = createAction(
-  Actions.RECEIVE_MESSAGE_SUCCESS,
+export const userLeaveRoom = createAction(
+  Actions.USER_LEAVE_ROOM,
+  (name: string) => ({ name: name })
+);
+
+export const receiveRoomUserlist = createAction(
+  Actions.RECEIVE_ROOM_USERLIST,
+  (users: [any]) => ({ users: users })
+);
+
+export const receiveMessage = createAction(
+  Actions.RECEIVE_MESSAGE,
   (user: string, msg: string) => ({ user, msg })
 );

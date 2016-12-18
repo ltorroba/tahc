@@ -9,4 +9,4 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-this.sock = new Socket();
+export let sock = new Socket();
